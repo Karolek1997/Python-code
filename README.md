@@ -17,3 +17,13 @@ Dla lepszego zobrazowania wyników wyselectowano przykładowe produkty w danej k
 
 Kod został poszerzony o pobieranie danych dotyczących dostępności oraz ID produktu.
 
+# Nowe unikalne ID
+![Example Image](noweunikalneid.jpg)
+
+Analiza wykazała, że niestety JSON z API Nike nie udostępnia unikalnych ID produktów, jednak najwięcej unikalnych produtków udało się odnależć na podstawie połączenia kolumn PID + portraitURL.
+
+W związku z tym aktualnie w bazie danych przechowywane są wyłącznie produkty o "unikalnym" ID. 
+
+Aktualnie moja aplikacja pobiera dane nowych produktów, w przypadku kiedy produkt istnieje w tabeli (na podstawie kolumny UnikalneID) zmienione przez NIKE kolumny są aktualizowane. 
+
+
