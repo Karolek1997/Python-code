@@ -15,7 +15,10 @@ Dla lepszego zobrazowania wyników wyselectowano przykładowe produkty w danej k
 # Poszerzenie scrapingu
 ![Example Image](aktualizacjakodu.jpg)
 
-Kod został poszerzony o pobieranie danych dotyczących dostępności oraz ID produktu.
+Kod został poszerzony o pobieranie danych dotyczących dostępności produktu na stronie nike.com
+
+Niestety NIKE nie udostępnia konkretnych informacji dotyczących posiadanej ilości sztuk. W związku z tym opieram się aktualnie na binarce 0/1 = niedostępne/dostępne.
+
 
 # Nowe unikalne ID
 ![Example Image](noweunikalneid.jpg)
@@ -24,7 +27,5 @@ Analiza wykazała, że niestety JSON z API Nike nie udostępnia unikalnych ID pr
 
 W związku z tym aktualnie w bazie danych przechowywane są wyłącznie produkty o "unikalnym" ID. 
 
-Aktualnie moja aplikacja pobiera dane nowych produktów, w przypadku kiedy produkt istnieje w tabeli (na podstawie kolumny UnikalneID) zmienione przez NIKE kolumny są aktualizowane. 
-
-Dodatkowo zbierane są dane dotyczące dostępności produktu. Niestety NIKE nie udostępnia konkretnych informacji dotyczących posiadanej ilości sztuk. W związku z tym opieram się aktualnie na binarce 0/1 = niedostępne/dostępne.
+Aktualnie moja aplikacja pobiera dane nowych produktów, w przypadku kiedy produkt istnieje w tabeli (na podstawie kolumny UnikalneID) zmienione kolumny są aktualizowane. 
 
