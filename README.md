@@ -11,3 +11,9 @@ Jak widać na załączonym obrazku udało się pobrać 3356 produktów w aktualn
 Dodatkowo dla lepszej widoczności wypisano liczbę produktów w danej kategorii na podstawie słów kluczowych "męski, damski, dzieci" oraz liczbę produktów, które nie spełniają żadnej z tych reguł.
 
 Dla lepszego zobrazowania wyników wyselectowano przykładowe produkty w danej kategorii.
+
+# Poszerzenie scrapingu
+![Example Image](aktualizacjakodu.jpg)
+
+Kod został poszerzony o pobieranie danych dotyczących dostępności oraz ID produktu.
+
