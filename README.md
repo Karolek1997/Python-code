@@ -26,4 +26,5 @@ W związku z tym aktualnie w bazie danych przechowywane są wyłącznie produkty
 
 Aktualnie moja aplikacja pobiera dane nowych produktów, w przypadku kiedy produkt istnieje w tabeli (na podstawie kolumny UnikalneID) zmienione przez NIKE kolumny są aktualizowane. 
 
+Dodatkowo zbierane są dane dotyczące dostępności produktu. Niestety NIKE nie udostępnia konkretnych informacji dotyczących posiadanej ilości sztuk. W związku z tym opieram się aktualnie na binarce 0/1 = niedostępne/dostępne.
 
