@@ -4,7 +4,7 @@ Projekt zawiera API do pobierania danych dotyczących butów damskich, męskich 
 # Wyniki działania API
 ![Example Image](wynik_scrapowania_nike.JPG)
 
-API wysyła zapytania i zwraca wyniki do mojej bazy danych, zawierając informację o Nazwie, Podtytule, Aktualnej_cenie, Pełnej_cenie danego produktu obuwniczego ze strony NIKE.
+API wysyła zapytania i zwraca wyniki do mojej bazy danych - Informacjeoproduktach , zawierając informację o Nazwie, Podtytule, Aktualnej_cenie, Pełnej_cenie danego produktu obuwniczego ze strony NIKE.
 
 Jak widać na załączonym obrazku udało się pobrać 3356 produktów w aktualnej sprzedaży na stronie nike.com. 
 
@@ -29,3 +29,11 @@ W związku z tym aktualnie w bazie danych przechowywane są wyłącznie produkty
 
 Aktualnie moja aplikacja pobiera dane nowych produktów, w przypadku kiedy produkt istnieje w tabeli (na podstawie kolumny UnikalneID) zmienione kolumny są aktualizowane. 
 
+# Przechwytywanie zmian na stronie
+![Example Image](zmianynanike.jpg)
+
+Utworzona w części SQL'owej tabela Informacjeoproduktachhistory aktualne przechowywuje przechwycone zmiany na stronie nike.com za pomocą API.
+
+Screen przedstawia wychwycone w tym przypadku zmiany w dostępności produktu (pierwsze 4 rekordy wygenerowałem sam, dlatego są zbliżone daty itd.) Produkt o ID 4376 w mojej bazie danych został zmieniony na stronie nike.com. 
+
+Dla lepszej widoczności zostały pominięte niektóre kolumny w tym selecie. 
