@@ -34,6 +34,6 @@ Aktualnie moja aplikacja pobiera dane nowych produktów, w przypadku kiedy produ
 
 Utworzona w części SQL'owej tabela Informacjeoproduktachhistory aktualne przechowywuje przechwycone zmiany na stronie nike.com za pomocą API.
 
-Screen przedstawia wychwycone w tym przypadku zmiany w dostępności produktu (pierwsze 4 rekordy wygenerowałem sam, dlatego są zbliżone daty itd.) Produkt o ID 4376 w mojej bazie danych został zmieniony na stronie nike.com. 
+Screen przedstawia wychwycone w tym przypadku zmiany w dostępności produktu (pierwsze 4 rekordy wygenerowałem sam ręcznie). Pozostałe wpisy dotyczące zmian zostały wygenerowane bezpośrednio przez Nike.
 
-Dla lepszej widoczności zostały pominięte niektóre kolumny w tym selecie. 
+Dla lepszej widoczności zostały pominięte niektóre kolumny w tym selecie (niektóre daty, unikalne itd...)
