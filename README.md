@@ -30,10 +30,12 @@ W związku z tym aktualnie w bazie danych przechowywane są wyłącznie produkty
 Aktualnie moja aplikacja pobiera dane nowych produktów, w przypadku kiedy produkt istnieje w tabeli (na podstawie kolumny UnikalneID) zmienione kolumny są aktualizowane. 
 
 # Przechwytywanie zmian na stronie
-![Example Image](zmianynanike.jpg)
+![Example Image](zmianynanike.png)
 
 Utworzona w części SQL'owej tabela Informacjeoproduktachhistory aktualne przechowywuje przechwycone zmiany na stronie nike.com za pomocą API.
 
 Screen przedstawia wychwycone w tym przypadku zmiany w dostępności produktu (pierwsze 4 rekordy wygenerowałem sam ręcznie). Pozostałe wpisy dotyczące zmian zostały wygenerowane bezpośrednio przez Nike.
 
 Dla lepszej widoczności zostały pominięte niektóre kolumny w tym selecie (niektóre daty, unikalne itd...)
+
+Po tygodniu udało się złapac ponad 170 zmian.
